@@ -104,8 +104,10 @@ switch:
 
 external_components:
   - source:
-      type: local
-      path: ../esphome/components
+      type: git
+      url: https://github.com/futureproofhomes/satellite1-esphome
+      ref: develop
+      path: esphome/components
     components: 
         - audio 
         - fusb302b
